@@ -39,31 +39,13 @@ const Page = () => {
             </p>
             <div className="mt-4">
               <span className="mb-2 mr-2 inline-block rounded-full bg-gray-100 px-3 py-1 text-[10px] font-semibold text-gray-900">
-                #Sneakers
+                {items.category}
               </span>
-              <span className="mb-2 mr-2 inline-block rounded-full bg-gray-100 px-3 py-1 text-[10px] font-semibold text-gray-900">
-                #Nike
-              </span>
-              <span className="mb-2 mr-2 inline-block rounded-full bg-gray-100 px-3 py-1 text-[10px] font-semibold text-gray-900">
-                #Airmax
-              </span>
-            </div>
-            <div className="mt-3 flex items-center space-x-2">
-              <span className="block text-sm font-semibold">Colors : </span>
-              <span className="block h-4 w-4 rounded-full border-2 border-gray-300 bg-red-400"></span>
-              <span className="block h-4 w-4 rounded-full border-2 border-gray-300 bg-purple-400"></span>
-              <span className="block h-4 w-4 rounded-full border-2 border-gray-300 bg-orange-400"></span>
             </div>
             <div className="mt-5 flex items-center space-x-2">
-              <span className="block text-sm font-semibold">Size : </span>
+              <span className="block text-sm font-semibold">Price : </span>
               <span className="block cursor-pointer rounded-md border border-gray-300 p-1 px-2 text-xs font-medium">
-                8 UK
-              </span>
-              <span className="block cursor-pointer rounded-md border border-gray-300 p-1 px-2 text-xs font-medium">
-                9 UK
-              </span>
-              <span className="block cursor-pointer rounded-md border border-gray-300 p-1 px-2 text-xs font-medium">
-                10 UK
+                {items.price}
               </span>
             </div>
             <button
